@@ -1,0 +1,62 @@
+﻿<img class="for_info_only" title="juggler" src="{{MEDIA}}juggler.png" alt="juggler" width="190px"
+     style="float: left; padding-left: 25px; padding-right: 40px"/>
+<p>
+	あなたは正の整数が与えられます。
+	あなたの関数はゼロを除く各桁の積を計算しなければいけません
+</p>
+
+<p>
+	例えば: 123405が与えられたとします。結果は1*2*3*4*5=120になるでしょう(ゼロを除外するのを忘れずに)
+</p>
+
+
+<p>
+    <strong>ヒント: </strong> このタスクはintからstrへの単純な変換を使って解くことができます。
+    {% if "python 2" in interpreter|lower %}
+    より詳しくは<a href="http://docs.python.jp/2/library/stdtypes.html">ここの組み込み型</a>を読んでみてください。
+    {% else %}
+    より詳しくは<a href="http://docs.python.jp/3/library/stdtypes.html">ここの組み込み型</a>を読んでください。
+    {% endif %}
+</p>
+
+<p>
+    <strong>入力: </strong>正の整数。
+</p>
+
+<p>
+    <strong>出力: </strong>各桁の積、整数。
+</p>
+
+<div style="clear: both;"></div>
+
+<div class="for_info_only">
+    <p>
+        <strong>例:</strong>
+    </p>
+    <pre class="brush: python">
+checkio(123405) == 120
+checkio(999) == 729
+checkio(1000) == 1
+checkio(1111) == 1
+    </pre>
+</div>
+
+<p class="for_info_only">
+    <strong>どのように使われるか: </strong>
+	このタスクで単純なデータ型の変換に関する問題の解き方を学ぶことができます。
+</p>
+
+<p>
+    <strong>事前条件: </strong>
+        0 &lt; number &lt; 10<sup>6</sup>
+</p>
+
+<div class="facts for_info_only">
+    <p>
+		あなたの望むどのミッションでも編集したり変更をコミットすることができます。
+		各ミッションは、ミッションのページの一番下にgithubリポジトリへのリンクがあります。
+		各ミッションは同じ構造を持っています。
+		誤字を修正したりミッションの説明を明確にすることでコミュニティに貢献することができます。
+		(訳注:以上はgithubを介して行います。この翻訳もここで説明されている機能を利用して実現しています)
+    </p>
+</div>
