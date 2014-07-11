@@ -1,0 +1,60 @@
+<img class="for_info_only" title="juggler" src="{{MEDIA}}juggler.png" alt="juggler" width="190px"
+     style="float: left; padding-left: 25px; padding-right: 40px"/>
+<p>
+    On vous donne un entier positif.
+    Votre fonction doit calculer le produit de ses chiffres en excluant les z&eacute;ros.
+</p>
+
+<p>
+    Par exemple : Le nombre donn&eacute; est 123405. Le r&eacute;sultat sera 1*2*3*4*5=120 (n'oubliez pas d'exclure les z&eacute;ros).
+</p>
+
+
+<p>
+    <strong>Conseils : </strong> Cette t&acirc;che peut &ecirc;tre facilement r&eacute;solue avec une simple conversion d'entier vers chaine de caract&egrave;res et vice versa.
+    {% if "python 2" in interpreter|lower %}
+    Lisez-en plus sur <a href="http://docs.python.org/2/library/stdtypes.html">les types primitifs ici</a>.
+    {% else %}
+    Lisez-en plus sur <a href="http://docs.python.org/3/library/stdtypes.html">les types primitifs ici</a>.
+    {% endif %}
+</p>
+
+<p>
+    <strong>Entr&eacute;e : </strong> Un entier positif.
+</p>
+
+<p>
+    <strong>Sortie : </strong> Le produit des chiffres en tant qu'entier.
+</p>
+
+<div style="clear: both;"></div>
+
+<div class="for_info_only">
+    <p>
+        <strong>Exemple :</strong>
+    </p>
+    <pre class="brush: python">
+checkio(123405) == 120
+checkio(999) == 729
+checkio(1000) == 1
+checkio(1111) == 1
+    </pre>
+</div>
+
+<p class="for_info_only">
+    <strong>&Agrave; quoi cela sert : </strong>
+    Cette t&acirc;che peut vous apprendre &agrave; r&eacute;soudre un probl&egrave;me avec une conversion simple de types de donn&eacute;e.
+</p>
+
+<p>
+    <strong>Pr&eacute;condition : </strong>
+        0 &lt; nombre &lt; 10<sup>6</sup>
+</p>
+
+<div class="facts for_info_only">
+    <p>
+        Vous pouvez &eacute;diter et proposer vos changements pour n'importe quelle mission.
+        Chaque mission a un lien vers son r&eacute;pertoire github tout en bas de sa page. Chaque mission a la m&ecirc;me structure.
+        Vous pouvez aider la communaut&eacute; en corrigeant les fautes ou en clarifiant le descriptif des missions.
+    </p>
+</div>
