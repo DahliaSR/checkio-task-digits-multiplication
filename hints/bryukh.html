@@ -1,0 +1,60 @@
+<body data-author="bryukh">
+<div class="question-answer">
+    <div class="question">
+        I have no idea how to start solving this mission
+    </div>
+    <div class="answer">
+        You will need to separate digits from the number.
+        You can easily do this if convert a number in the string and work with it as with a sequence.
+<pre class="brush: python">
+str(20123) == "20123"
+s = str(102)
+s[0] == "1"
+s[2] == "2"
+for x in str(number):
+    something
+    </pre>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        I need some help to proceed with the mission
+    </div>
+    <div class="answer">
+        You can convert each string digit in a number with "int(s)"
+<pre class="brush: python">
+for s in str(number):
+    n = int(s)
+    </pre>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        I am gone half way through. Need help!
+    </div>
+    <div class="answer">
+        Multiply digits and accumulate the result
+<pre class="brush: python">
+result = 1
+for s in str(number):
+    n = int(s)
+    ...
+    result *= n # result = result * n
+    </pre>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        I am stuck. I need a small hint.
+    </div>
+    <div class="answer">
+        In the last hint I "forgot" about zeroes. Of course you should skip them.
+<pre class="brush: python">
+if not n:  # if n == 0:
+    continue
+    </pre>
+    </div>
+</div>
+
+
+</body>
