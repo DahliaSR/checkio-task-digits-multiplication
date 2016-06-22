@@ -5,6 +5,10 @@ requirejs(['ext_editor_io', 'jquery_190'],
         var $tryit;
 
         var io = new extIO({
+            functions: {
+                js: 'digitsMultip',
+                python: 'checkio'
+            },
             tryit:function (this_e) {
                 $tryit = this_e.extSetHtmlTryIt(this_e.getTemplate('tryit')).find(".tryit-content");
                 $tryit.find('.bn-check').click(function (e) {

@@ -37,4 +37,8 @@ from tests import TESTS
 api.add_listener(
     ON_CONNECT,
     CheckiOReferee(
-        tests=TESTS).on_ready)
+        tests=TESTS,
+        function_name={
+            "python": "checkio",
+            "js": "digitsMultip"
+        }).on_ready)

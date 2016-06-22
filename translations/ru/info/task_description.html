@@ -22,12 +22,17 @@
     <p>
         <strong>Примеры:</strong>
     </p>
-    <pre class="brush: python">
+    <pre class="brush: python">{% if interpreter.slug == "js-node" %}
+digitsMultip(123405) == 120
+digitsMultip(999) == 729
+digitsMultip(1000) == 1
+digitsMultip(1111) == 1
+{% else %}
 checkio(123405) == 120
 checkio(999) == 729
 checkio(1000) == 1
 checkio(1111) == 1
-    </pre>
+{% endif %}</pre>
 </div>
 
 <p class="for_info_only">
